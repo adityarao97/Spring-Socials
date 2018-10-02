@@ -2,6 +2,18 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  color: currentColor!important;
+  text-decoration: none!important;
+}
+a:link {
+  text-decoration: none!important;
+  color: currentColor!important;
+  }
+
+a:visited {
+  text-decoration: none!important;
+}
 .navbar .nav-link {
   font-size: 14px;
   text-transform: uppercase;
@@ -36,6 +48,11 @@ body {
   background-size: cover;
 }
 
+.carousel-image-1-services {
+  background: url('../img/cake.jpg');
+  background-size: cover;
+}
+
 .carousel-image-2 {
   background: url('../img/image2.jpg');
   background-size: cover;
@@ -54,6 +71,36 @@ body {
   position: relative;
   min-height: 50vh;
   background: url('../img/par1.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#home-heading-party {
+  position: relative;
+  min-height: 100vh;
+  background: url('../img/p1.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#home-heading-wedding {
+  position: relative;
+  min-height: 100vh;
+  background: url('../img/gal4.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#home-heading-corporate {
+  position: relative;
+  min-height: 100vh;
+  background: url('../img/c4.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
