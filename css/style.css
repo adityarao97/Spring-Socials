@@ -26,8 +26,13 @@ body {
   background-size: cover;
 }
 
-.carousel-image-1-2 {
+.carousel-image-1-gallery {
   background: url('../img/cam.jpg');
+  background-size: cover;
+}
+
+.carousel-image-1-about {
+  background: url('../img/about.jpg');
   background-size: cover;
 }
 
@@ -41,10 +46,14 @@ body {
   background-size: cover;
 }
 
-#home-heading {
+#home-icons {
+  min-height:50vh;  
+}
+
+#home-heading-index {
   position: relative;
-  min-height: 200px;
-  background: url('../img/lights.jpg');
+  min-height: 50vh;
+  background: url('../img/par1.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
