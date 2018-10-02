@@ -80,7 +80,7 @@ a:visited {
 #home-heading-party {
   position: relative;
   min-height: 100vh;
-  background: url('../img/p1.jpg');
+  background: url('../img/p2.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
@@ -90,7 +90,7 @@ a:visited {
 #home-heading-wedding {
   position: relative;
   min-height: 100vh;
-  background: url('../img/gal4.jpg');
+  background: url('../img/w2.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
@@ -118,8 +118,8 @@ a:visited {
 
 #video-play {
   position: relative;
-  min-height: 200px;
-  background: url('../img/media.jpg');
+  height: 100vh;
+  background: url('../img/p4.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 0 -300px;
