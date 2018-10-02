@@ -104,6 +104,9 @@ body {
   padding-top: 50px;
 }
 
+#about {
+  height:100vh;
+}
 .about-img {
   margin-top: -50px;
 }
@@ -125,4 +128,8 @@ body {
 #main-footer {
   background: #000;
   color: #fff;
+}
+
+#icon-boxes {
+  height: 100vh;
 }
