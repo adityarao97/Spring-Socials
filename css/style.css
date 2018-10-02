@@ -26,6 +26,11 @@ body {
   background-size: cover;
 }
 
+.carousel-image-1-2 {
+  background: url('../img/cam.jpg');
+  background-size: cover;
+}
+
 .carousel-image-2 {
   background: url('../img/image2.jpg');
   background-size: cover;
