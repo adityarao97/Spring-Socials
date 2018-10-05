@@ -54,12 +54,12 @@ a:visited {
 }
 
 .carousel-image-2 {
-  background: url('../img/image2.jpg');
+  background: url('../img/cam.jpg');
   background-size: cover;
 }
 
 .carousel-image-3 {
-  background: url('../img/image3.jpg');
+  background: url('../img/contact.jpg');
   background-size: cover;
 }
 
