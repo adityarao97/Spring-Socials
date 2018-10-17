@@ -15,9 +15,9 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
     <div class="container">
-      <img src="logo.png" style="height:2.5rem">       <a href="index.html" class="navbar-brand">Spring Socials</a>
+      <a href="index.html" class="navbar-brand">Spring Socials</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -36,27 +36,17 @@
             <a href="gallery.html" class="nav-link">Gallery</a>
           </li>
           <li class="nav-item">
-            <a href="services.html#faqsection" class="nav-link">FAQ<span style="text-transform:lowercase">s</span></a>
+            <a href="services.html#faqsection" class="nav-link">FAQ's</a>
           </li>
           <li class="nav-item active">
             <a href="contact.html" class="nav-link">Contact Us</a>
           </li>
           <li class="nav-item">
-              <div class="row">
-                <div class="col-sm-3 md-3 lg-3">
-                    <a href="http://www.facebook.com/springsocials" target="_blank"><i class="fab fa-facebook-f fa-sm mr-2 ml-3" style="margin-top:11px"></i></a>   
-                </div>
-                <div class="col-sm-3 md-3 lg-3">
-                    <a href="http://www.instagram.com/springsocials" target="_blank"><i class="fab fa-instagram fa-sm mr-2" style="margin-top:11px"></i></a>
-                </div>
-                <div class="col-sm-3 md-3 lg-3">
-                    <a href="https://twitter.com/springsocials?s=08" target="_blank"><i class="fab fa-twitter fa-sm mr-2 " style="margin-top:11px"></i></a>
-                </div>
-                <div class="col-sm-3 md-3 lg-3">
-                    <a href="https://www.youtube.com/channel/UCwVWwEv-3HU4bOw09WcMX3w" target="_blank"><i class="fab fa-youtube fa-sm mr-2" style="margin-top:11px"></i></a>          
-                </div>
-              </div>
-            </li>
+              <a href="http://www.facebook.com/springsocials" target="_blank"><i class="fab fa-facebook-f fa-sm mr-2 ml-3" style="margin-top:11px"></i></a>   
+              <a href="http://www.instagram.com/springsocials" target="_blank"><i class="fab fa-instagram fa-sm mr-2"></i></a>
+              <a href="https://twitter.com/springsocials?s=08" target="_blank"><i class="fab fa-twitter fa-sm mr-2 "></i></a>
+              <a href="https://www.youtube.com/channel/UCwVWwEv-3HU4bOw09WcMX3w" target="_blank"><i class="fab fa-youtube fa-sm mr-2 "></i></a>          
+          </li>
         </ul>
       </div>
     </div>
@@ -90,7 +80,7 @@
               <h4>Get In Touch</h4>
               <p>We provide instant service and we accept any kind of feedback you may have so feel free to contact us.</p>
               <h4>Address</h4>
-              <p>Mahesh Nagar, Road number 4, Patna, Bihar, 800024.</p>
+              <p>Address- Mahesh Nagar, Road number 4, Patna, Bihar, 800024.</p>
               <h4>Email</h4>
               <p>info@springsocials.com</p>
               <h4>Phone</h4>
@@ -99,7 +89,6 @@
           </div>
         </div>
         <div class="col-md-8">
-            <form name="contact" method="post" action="send_form_email.php" style="float:right">
           <div class="card p-4">
             <div class="card-body">
               <h3 class="text-center">Please fill out this form to contact us</h3>
@@ -107,22 +96,38 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input name="fname" type="text" class="form-control" placeholder="First Name" id="fname">
+<<<<<<< HEAD:contact.html
+                    <input type="text" class="form-control" placeholder="First Name" id="fname">
+=======
+                    <input name="fvname" type="text" class="form-control" placeholder="First Name">
+>>>>>>> ec737e1230760bfdccfcfc876abe45e79bc1b30f:contact.php
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input name="lname" type="text" class="form-control" placeholder="Last Name" id="lname">
+<<<<<<< HEAD:contact.html
+                    <input type="text" class="form-control" placeholder="Last Name" id="lname">
+=======
+                    <input name="lvname" type="text" class="form-control" placeholder="Last Name">
+>>>>>>> ec737e1230760bfdccfcfc876abe45e79bc1b30f:contact.php
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input name="email" type="text" class="form-control" placeholder="Email" id="mail">
+<<<<<<< HEAD:contact.html
+                    <input type="text" class="form-control" placeholder="Email" id="mail">
+=======
+                    <input name="vemail" type="text" class="form-control" placeholder="Email">
+>>>>>>> ec737e1230760bfdccfcfc876abe45e79bc1b30f:contact.php
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input name="phno" type="text" class="form-control" placeholder="Phone Number" id="pno">
+<<<<<<< HEAD:contact.html
+                    <input type="text" class="form-control" placeholder="Phone Number" id="pno">
+=======
+                    <input name="phone" type="text" class="form-control" placeholder="Phone Number">
+>>>>>>> ec737e1230760bfdccfcfc876abe45e79bc1b30f:contact.php
                   </div>
                 </div>
               </div>
@@ -136,7 +141,7 @@
                   <div class="input-group-prepend">
                     <label class="input-group-text" for="inputGroupSelect01">Options</label>
                   </div>
-                  <select name="type" class="custom-select" id="inputGroupSelect01">
+                  <select class="custom-select" id="inputGroupSelect01">
                     <option selected>Select your event type</option>
                     <option value="1">Weddings</option>
                     <option value="2">Parties</option>
@@ -145,24 +150,26 @@
                 </div>
                 <div class="col-md-12">
                   <div class="form-group">
-                    <textarea name="msg" class="form-control" placeholder="Message"></textarea>
+                    <textarea name="msg" class="form-control" placeholder="Message (not exceed 70 characters)"></textarea>
                   </div>
                 </div>
                 <div class="col-md-12">
                   <div class="form-group">
+<<<<<<< HEAD:contact.html
                     <input type="submit" value="Submit" class="btn btn-outline-danger btn-block" id="submitform">
+=======
+                    <input name="submit" type="submit" value="Submit" class="btn btn-outline-danger btn-block">
+>>>>>>> ec737e1230760bfdccfcfc876abe45e79bc1b30f:contact.php
                   </div>
                 </div>
-              
+                <h3><?php include "secure_email_code.php"?></h3>
               </div>
               </div>
             </div>
           </div>
-        </form>
         </div>
       </div>
     </div>
-
   </section>
 
   <!-- STAFF
@@ -200,7 +207,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-           <i class="fas fa-phone-volume fa-md mr-2" aria-hidden="true"></i>Call Us Now +91 6206576731/ 9304481108<br>
+           <i class="fas fa-phone-volume fa-md mr-2" aria-hidden="true"></i>Call Us Today +916206576731/ 9304481108<br>
             <a href="http://www.facebook.com/springsocials" target="_blank"><i class="fab fa-facebook-f fa-md mr-2"></i></a>   
             <a href="http://www.instagram.com/springsocials" target="_blank"><i class="fab fa-instagram fa-md mr-2"></i></a>
             <a href="https://twitter.com/springsocials?s=08" target="_blank"><i class="fab fa-twitter fa-md mr-2 "></i></a>
@@ -211,10 +218,15 @@
           </div>
         </div>
       </div>
-  </footer>
+      
+      <!-- <span class="mr-4" style="float:right;margin-top: -50px">
+          <i class="fas fa-phone-volume fa-lg mr-0" aria-hidden="true"></i>
+            +916206576731/ 9304481108
+    </span> -->
+    </footer>
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
